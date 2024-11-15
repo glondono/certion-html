@@ -1,0 +1,574 @@
+#header {
+    border-radius: 0 !important;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+#main {
+    min-height: 80px;
+}
+
+#footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+
+#footer .container {
+    border-top: 5px solid #FF662B;
+    border-bottom: 5px solid #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer a{
+    color:inherit;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color: #FF662B
+}
+
+#carousel1 {
+    background-color: #000;
+    color: #333;
+    margin-bottom: 30px;
+    height: 380px;
+}
+
+#carousel1 .item {
+    width: 100%;
+    height: 380px;
+}
+
+#i0 {
+    background-image: url("../img/generator.jpg");
+}
+
+#i1 {
+    background-image: url("../img/industrial.jpg");
+}
+
+#i2 {
+    background-image: url("../img/hospital.jpg");
+}
+
+#i3 {
+    background-image: url("../img/infraestructura.jpg");
+}
+
+#i4{
+   background-image: url("../img/gabinetes.jpg"); 
+}
+
+
+#p1 {
+    background-image: url("../img/procopal2.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p2 {
+    background-image: url("../img/plazamayor2.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p3 {
+    background-image: url("../img/elcondor2.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p4 {
+    background-image: url("../img/caicsa2.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p5 {
+    background-image: url("../img/conconcreto2.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p6 {
+    background-image: url("../img/elcondor2.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p7 {
+    background-image: url("../img/farallones2.JPG");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p8 {
+    background-image: url("../img/farallones.png");
+    height: 280px;
+    line-height: 280px;
+}
+
+#p9 {
+    background-image: url("../img/oea.jpg");
+    height: 280px;
+    line-height: 280px;
+}
+
+#s1{
+    background-image: url("../img/industrial2.jpg");
+    height: 230px;
+    line-height: 230px;
+}
+
+#s2{
+    background-image: url("../img/infraestructura2.jpg");
+    height: 230px;
+    line-height: 230px;
+}
+
+#s3{
+    background-image: url("../img/hospitalario2.jpg");
+    height: 230px;
+    line-height: 230px;
+}
+#farallones1{
+     background-image: url("../img/farallones3.png");
+    width: 100%;
+    min-height: 380px;
+}
+
+#industrial{
+    background-image: url("../img/industrial2.jpg");
+    width: 100%;
+    min-height: 380px;
+}
+
+#hospitalario{
+    background-image: url("../img/hospitalario2.jpg");
+    width: 100%;
+    min-height: 380px;
+}
+
+#infraestructura{
+    background-image: url("../img/infraestructura2.jpg");
+    width: 100%;
+    min-height: 380px;   
+}
+
+#solar{
+    background-image: url("../img/solar6.jpg");
+    width: 100%;
+    min-height: 380px;   
+}
+
+#eaton2 {
+    background-image: url("../img/generator.jpg");
+    width: 100%;
+}
+
+#contacto {
+    background-image: url("../img/generator.jpg");
+    width: 100%;
+}
+
+#servicios{
+    background-image: url("../img/generator.jpg");
+    width: 100%;
+}
+
+#grupo{
+    background-image: url("../img/grupo2.jpg");
+    width: 100%;
+    min-height: 380px;
+    background-position-y:-80px
+}
+#procopal {
+    background-image: url("../img/procopal2.jpg");
+    width: 100%;
+    min-height: 380px;
+}
+
+#plazamayor {
+    background-image: url("../img/plazamayor2.jpg");
+    width: 100%;
+    min-height: 380px;
+}
+
+#elcondor {
+    background-image: url("../img/elcondor2.jpg");
+    width: 100%;
+    min-height:380px;
+}
+
+#caicsa {
+    background-image: url("../img/caicsa2.jpg");
+    width: 100%;
+    min-height:380px;
+}
+
+#conconcreto {
+    background-image: url("../img/conconcreto2.jpg");
+    width: 100%;
+    min-height:380px;
+}
+
+#oea{
+   background-image: url("../img/oea2.png");
+   width: 100%;
+   min-height: 380px;
+}
+
+#circle{
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+#circle.diagnostico{
+     -webkit-transform: rotate(110deg);
+     -moz-transform: rotate(110deg);
+     -o-transform: rotate(110deg);
+     transform: rotate(110deg);
+}
+
+#circle.implementacion{
+     -webkit-transform: rotate(220deg);
+     -moz-transform: rotate(220deg);
+     -o-transform: rotate(220deg);
+     transform: rotate(220deg);
+}
+
+#circle.gerencia{
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     transform: rotate(360deg);
+}
+
+#banner.diagnostico{
+    background-color:#FF662B;
+}
+
+#banner.implementacion{
+    background-color:#00718C;
+}
+
+#banner.gerencia{
+    background-color:#00B3C1;
+}
+
+.btn-diagnostico{
+  color: #fff !important;
+  background-color: #FF662B;
+  border-color: #FF662B;
+}
+
+.btn-gerencia{
+  color: #fff !important;
+  background-color: #00B3C1;
+  border-color: #00B3C1;
+}
+
+.btn-implementacion{
+  color: #fff !important;
+  background-color: #00718C;
+  border-color: #00718C;
+}
+
+.orange {
+    color: #FF662B;
+}
+
+.white {
+    color: #FFF;
+}
+
+.margin-bottom-x1 {
+    margin-bottom: 30px;
+}
+
+.margin-header {
+    margin-top: 155px;
+}
+
+.margin-top-x1 {
+    margin-top: 30px;
+}
+
+.row-padding-top{
+    padding-top: 30px;
+}
+
+.row-padding-top-x3{
+    padding-top:120px;
+}
+
+.row-padding-bottom{
+    padding-bottom: 30px;
+}
+
+#carousel2 .item {
+    width: 100%;
+    height: 520px;
+}
+
+#i21 {
+    background-image: url("../img/diagnosticamos.jpg");
+}
+
+#i22 {
+    background-image: url("../img/implementamos.jpg");
+}
+
+#i23 {
+    background-image: url("../img/gerenciamos.jpg");
+}
+
+#c1 {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+#c2 {
+    height: 320px;
+    background-image: url("../img/infraestructura3.jpg");
+    margin-bottom: 10px;
+    background-color: #FFF;
+    line-height: 320px;
+}
+
+#c3 {
+    height: 190px;
+    background-image: url("../img/LOGOSCALIDAD.png");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    line-height: 190px;
+}
+
+#c3-1 {
+    height: 190px;
+    background-image: url("../img/QCERT.png");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    line-height: 190px;
+}
+
+#c4 {
+    background-image: url("../img/proyectos.jpg");
+    height: 190px;
+    background-color: #FFF;
+    line-height: 190px;
+    margin-bottom:10px;
+}
+
+#c6 {
+    background-image: url("../img/solar4.jpg");
+    background-position-y: center;
+    height: 190px;
+    background-color: #FFF;
+    line-height: 190px;
+    margin-bottom:10px;
+}
+
+#c5 {
+    background-image: url("../img/contacto.jpg");
+    height: 190px;
+    background-color: #FFF;
+    line-height: 190px;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.nomargin {
+    margin: 0px !important;
+}
+
+.noheight {
+    height: auto !important;
+}
+
+.backcover {
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.btn{
+    border-radius: 0px !important;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-project{
+    background-color: white;
+    color: #333;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.btn-project:hover {
+    background-color: #FF662B;
+    color: white;
+}
+
+
+#contacto-form {
+    height: 1180px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .noheight-xs {
+        height: auto !important;
+    }
+    .nopadding-xs {
+        padding: 0px !important;
+    }
+    .nomargin-xs {
+        margin: 0px !important;
+    }
+    #contacto-form {
+        height: 1400px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .nopading-sm {
+        padding: 0px !important;
+    }
+    .nomargin-sm {
+        margin: 0px !important;
+    }
+    .noheight-sm {
+        height: auto !important;
+    }
+}
+
+.carousel-inner.vertical {
+    height: 100%;
+}
+
+.carousel-inner.vertical > .item {
+    -webkit-transition: .6s ease-in-out top;
+    -o-transition: .6s ease-in-out top;
+    transition: .6s ease-in-out top;
+}
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-inner.vertical > .item {
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+        -o-transition: -o-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        perspective: 1000;
+    }
+    .carousel-inner.vertical > .item.next,
+    .carousel-inner.vertical > .item.active.right {
+        top: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    .carousel-inner.vertical > .item.prev,
+    .carousel-inner.vertical > .item.active.left {
+        top: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    .carousel-inner.vertical > .item.next.left,
+    .carousel-inner.vertical > .item.prev.right,
+    .carousel-inner.vertical > .item.active {
+        top: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.carousel-inner.vertical > .active {
+    top: 0;
+}
+
+.carousel-inner.vertical > .next,
+.carousel-inner.vertical > .prev {
+    top: 0;
+    height: 100%;
+    width: auto;
+}
+
+.carousel-inner.vertical > .next {
+    left: 0;
+    top: 100%;
+}
+
+.carousel-inner.vertical > .prev {
+    left: 0;
+    top: -100%
+}
+
+.carousel-inner.vertical > .next.left,
+.carousel-inner.vertical > .prev.right {
+    top: 0;
+}
+
+.carousel-inner.vertical > .active.left {
+    left: 0;
+    top: -100%;
+}
+
+.carousel-inner.vertical > .active.right {
+    left: 0;
+    top: 100%;
+}
+
+.bio {
+    height: 550px;
+    overflow: hidden;
+}
+
+.bio-photo {
+    border-bottom: 1px solid #FF662B;
+}
+
+.bio-first {
+    margin-top: 12px;
+    color: #666;
+    font-size: 1.2em;
+}
+
+.bio-last {
+    color: #FF662B;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.bio-position {
+    margin-bottom: 12px;
+}
